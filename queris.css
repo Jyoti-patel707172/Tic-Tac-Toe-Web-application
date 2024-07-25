@@ -1,0 +1,18 @@
+
+@media (max-width:2241px) {
+    .colorh1{
+        background-color: yellow;
+       width: 25rem;
+        height: auto;
+        border-radius: 6rem;
+    border: rgb(7, 7, 6) solid 1px; 
+    
+  
+    
+    }
+    .heading{
+        font-size: 3em;
+        color: red;
+        margin-top: 15px;
+    }
+}

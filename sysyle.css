@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#backgroundimge{
+
+    background-color: rgb(191, 209, 227);
+    
+
+}
+.colorh1{
+    background-color: yellow;
+    height: auto;
+    border-radius: 10rem;
+    border: rgb(7, 7, 6) solid 2px;
+    align-items: center;
+    max-width: 20vw;
+    margin: 1vw 0px 0px 40vw;
+   
+
+    
+}  
+       
+.heading{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    color: rgb(17, 18, 17);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.gameinfo{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.box{
+     
+    border: 2px solid black;
+    font-size: 10vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    color: rgb(24, 33, 195);
+}
+.box:hover{
+    background-color: rgb(215, 156, 215);
+
+}
+#reset{
+    padding: 1vw;
+    font-size: 2vw;
+    background-color: #d6bc47;
+    color: #080808;
+    border-radius: 2rem;
+    margin: 5vw 0px 0px 45vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#newreset{
+    padding: 1vw;
+    margin: 1vw 0px 0px 45vw;
+    font-size: 2vw;
+    color: hsl(0, 0%, 0%);
+    background-color: hsla(48, 81%, 58%, 0.987);
+    border-radius: 2rem;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+#masg{
+    margin: auto;
+    color: rgb(236, 38, 38);
+    font-size: 4vw;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 100px;
+}
+.newConatair{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+    font-size: 4rem;
+    
+}
+.hide{
+    display: none;
+}
+
+.br{
+   border-right: 0;
+}
+
+.bl{
+    border-left: 0;
+}
+
+.bt{
+    border-top:0 ;
+}
+
+.bb{
+    border-bottom: 0;
+}
